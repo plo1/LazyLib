@@ -16,11 +16,11 @@ typedef struct DLL
     int len;
 } DLL;
 
-DLL* alloc_DLL();
-int insert(DLL *lst, int pos, void *data, int size_in);
-void* get(DLL *lst, int pos, int *size_out);
-void remove(int pos);
-void dealloc_DLL(DLL *lst);
-int size(DLL *lst);
+DLL* DLL_alloc();
+int DLL_insert(DLL *lst, int pos, void *data_in, int size_in);
+void* DLL_get(DLL *lst, int pos, int *size_out);
+void DLL_remove(int pos);
+void DLL_dealloc(DLL *lst);
+int DLL_size(DLL *lst);
 
 #endif
