@@ -13,8 +13,5 @@
 - [ ] Graph
 - [ ] Matrix
 - [ ] Bloom Filters
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Hash Map
 - [ ] 
